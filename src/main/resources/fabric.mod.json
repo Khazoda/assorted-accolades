@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.seacroak.accolades.AssortedAccolades"
+          "com.seacroak.accolades.AccoladesMod"
 		],
 		"client": [
-			"com.seacroak.accolades.AssortedAccoladesClient"
+			"com.seacroak.accolades.AccoladesModClient"
 		],
 		"fabric-datagen": [
-			"com.seacroak.accolades.AssortedAccoladesDataGenerator"
+			"com.seacroak.accolades.datagen.DataGenerator"
 		]
 	},
 	"mixins": [

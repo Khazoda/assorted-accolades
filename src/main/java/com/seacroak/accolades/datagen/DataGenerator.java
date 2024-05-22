@@ -1,9 +1,9 @@
-package com.seacroak.accolades;
+package com.seacroak.accolades.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
-public class AssortedAccoladesDataGenerator implements DataGeneratorEntrypoint {
+public class DataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 
