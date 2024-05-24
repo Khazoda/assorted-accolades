@@ -1,4 +1,4 @@
-package com.seacroak.accolades;
+package com.seacroak.assorted_accolades;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

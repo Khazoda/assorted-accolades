@@ -1,10 +1,9 @@
-package com.seacroak.accolades.util;
+package com.seacroak.assorted_accolades.util;
 
-import com.seacroak.accolades.AccoladesMod;
 import net.minecraft.util.Identifier;
 import org.jetbrains.annotations.NotNull;
 
-import static com.seacroak.accolades.Constants.ACCOLADES_ID;
+import static com.seacroak.assorted_accolades.Constants.ACCOLADES_ID;
 
 public class GenericUtils {
     @NotNull

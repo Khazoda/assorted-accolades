@@ -1,4 +1,4 @@
-package com.seacroak.accolades.mixin;
+package com.seacroak.assorted_accolades.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
