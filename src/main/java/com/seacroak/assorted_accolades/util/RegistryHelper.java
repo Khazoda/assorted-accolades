@@ -1,4 +1,4 @@
-package com.seacroak.accolades.util;
+package com.seacroak.assorted_accolades.util;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -7,7 +7,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-import static com.seacroak.accolades.Constants.ACCOLADES_ID;
+import static com.seacroak.assorted_accolades.Constants.ACCOLADES_ID;
 
 public class RegistryHelper {
 
