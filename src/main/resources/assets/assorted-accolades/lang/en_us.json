@@ -1,3 +1,13 @@
 {
-  "assorted-accolades.itemGroup": "Assorted Accolades"
+  "assorted-accolades.itemGroup": "Assorted Accolades",
+
+  "block.assorted-accolades.base_trophy": "Base Trophy",
+  "block.assorted-accolades.bingo_completionist_trophy_2023": "2023 Bingo Completionist's Trophy",
+  "block.assorted-accolades.bingo_participant_trophy_2023": "2023 Bingo Participant's Trophy",
+  "block.assorted-accolades.bingo_hat_contest_winner_trophy_2023": "2023 Bingo Hat Competition Winner's Trophy",
+
+  "block.assorted-accolades.base_trophy_info": "It's... empty?",
+  "block.assorted-accolades.bingo_completionist_trophy_2023_info": "Awarded for completing all 4 bingo boards on the 2023 christmas bingo server",
+  "block.assorted-accolades.bingo_participant_trophy_2023_info": "Awarded for participating in the 2023 christmas bingo server",
+  "block.assorted-accolades.bingo_hat_contest_winner_trophy_2023_info": "Awarded to the winner of the goofiest hat competition on the 2023 christmas bingo server"
 }
