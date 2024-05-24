@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "com.seacroak.accolades.mixin.client",
+	"package": "com.seacroak.assorted_accolades.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-		"ExampleClientMixin"
+		"InGameHudMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

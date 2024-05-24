@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "com.seacroak.accolades.mixin",
+	"package": "com.seacroak.assorted_accolades.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin"
