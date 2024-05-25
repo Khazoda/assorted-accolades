@@ -22,7 +22,6 @@ public final class MainRegistry {
   public static final BingoParticipantTrophy2023 BINGO_PARTICIPANT_TROPHY_2023 = registerBlock("bingo_participant_trophy_2023", new BingoParticipantTrophy2023(), defaultItemSettings);
   public static final BingoHatContestWinnerTrophy2023 BINGO_HAT_CONTEST_WINNER_TROPHY_2023 = registerBlock("bingo_hat_contest_winner_trophy_2023", new BingoHatContestWinnerTrophy2023(), defaultItemSettings);
 
-
   public static void init() {
     ACCOLADES_LOGGER.info("[Accolades] Initializing Main Registry");
   }

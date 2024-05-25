@@ -4,15 +4,16 @@ import com.seacroak.assorted_accolades.block.BaseTrophy;
 import com.seacroak.assorted_accolades.registry.MainRegistry;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
-import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientLifecycleEvents;
 import net.fabricmc.fabric.api.event.player.UseBlockCallback;
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.util.ActionResult;
 
-import java.util.concurrent.*;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.ScheduledFuture;
+import java.util.concurrent.TimeUnit;
 
 public class AccoladesModClient implements ClientModInitializer {
 
@@ -33,6 +34,7 @@ public class AccoladesModClient implements ClientModInitializer {
 			if (!player.isSpectator() && block instanceof BaseTrophy) {
 				trophyInteracted = true;
 				trophyInteractedIdentifier = block.getTranslationKey();
+
 				if (future != null) {
 					future.cancel(false);
 				}

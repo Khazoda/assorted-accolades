@@ -8,6 +8,7 @@ import net.minecraft.text.Text;
 
 public class ItemGroupRegistry {
     public static ItemGroup createItemGroup() {
+
         return FabricItemGroup.builder()
                 .icon(() -> new ItemStack(MainRegistry.BASE_TROPHY))
                 .displayName(Text.translatable("assorted-accolades.itemGroup"))
