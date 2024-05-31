@@ -6,7 +6,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.HorizontalFacingBlock;
 import net.minecraft.block.ShapeContext;
-import net.minecraft.block.enums.Instrument;
+import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
@@ -29,7 +29,7 @@ import static net.minecraft.state.property.Properties.WATERLOGGED;
 
 public class BaseTrophy extends HorizontalFacingBlock {
     public BaseTrophy() {
-        super(Settings.create().strength(3.5f).instrument(Instrument.IRON_XYLOPHONE).sounds(BlockSoundGroup.STONE).requiresTool().nonOpaque());
+        super(Settings.create().strength(3.5f).instrument(NoteBlockInstrument.IRON_XYLOPHONE).sounds(BlockSoundGroup.STONE).requiresTool().nonOpaque());
     }
 
     @Override

@@ -7,6 +7,7 @@ import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.font.MultilineText;
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.hud.InGameHud;
+import net.minecraft.client.render.RenderTickCounter;
 import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
 import org.spongepowered.asm.mixin.Mixin;
@@ -22,7 +23,7 @@ public class InGameHudMixin {
     MinecraftClient client = MinecraftClient.getInstance();
 
     @Inject(at = @At("TAIL"), method = "render")
-    public void render(DrawContext context, float tickDelta, CallbackInfo info) throws Exception {
+    public void render(DrawContext context, RenderTickCounter tickCounter, CallbackInfo ci) throws Exception {
         if (!AccoladesModClient.trophyInteracted) return;
         if (!client.options.hudHidden && client.player != null) {
             if (AccoladesModClient.trophyInteractedIdentifier != null) {
