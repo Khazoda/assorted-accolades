@@ -8,7 +8,7 @@ import static com.seacroak.assorted_accolades.Constants.ACCOLADES_ID;
 public class GenericUtils {
     @NotNull
     public static Identifier ID(@NotNull String path) {
-        return new Identifier(ACCOLADES_ID, path);
+        return Identifier.of(ACCOLADES_ID, path);
     }
 
 

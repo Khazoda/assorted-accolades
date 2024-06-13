@@ -13,7 +13,7 @@ public class RegistryHelper {
 
   // General use Identifier() maker function
   public static Identifier newID(String name) {
-    return new Identifier(ACCOLADES_ID, name);
+    return Identifier.of(ACCOLADES_ID, name);
   }
 
   // Block Registry Helper Functions
